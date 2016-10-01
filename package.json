@@ -17,6 +17,8 @@
     "webpack-dev-server": "^1.16.1"
   },
   "scripts": {
+    "dev": "webpack -d --watch",
+    "build": "webpack -p",
     "start": "webpack-dev-server --hot --inline"
   }
 }
