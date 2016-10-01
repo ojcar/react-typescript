@@ -13,9 +13,9 @@ export class Hello extends React.Component<HelloProps,{}> {
   render() {
     return (
       <div>
-      <h1>Hello World</h1>
+      <h1>Typescript starter</h1>
       <p>Everything seems to be ok.</p>
-      <Greeting name="World!" />
+      <Greeting name="WORLD" />
       </div>
     )
   }
